@@ -2,7 +2,7 @@
 
 class BankAccount {
 
-    //access modify
+    //access modify with readonly protected public private
    readonly userId : number;
    readonly userName : string;
    protected userBalance: number;
@@ -12,12 +12,13 @@ class BankAccount {
         this.userBalance = userBalance;
     }
 
+    // balance update function method
     addBalance(balance: number){
         this.userBalance = this.userBalance + balance
     }
 }
 
-
+// child bank account extends from parent bank account;
 class StudentBankAccount extends BankAccount{
 addYourBalance(balance: number){
     this.userBalance = this.userBalance = balance;
