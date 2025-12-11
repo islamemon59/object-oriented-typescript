@@ -43,7 +43,6 @@
 
 
 
-// console.log(user1.getBalance);
 
 
 class BankAccount {
