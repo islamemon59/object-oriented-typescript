@@ -81,4 +81,3 @@ class BankAccount {
 const user1 = new BankAccount("Mr. X", 25, 124, 20)
 user1.addBalance = 130;
 user1.getBalance
-console.log(user1);
